@@ -21,7 +21,7 @@ const Activate = ({ match }) => {
         }
     }, []);
 
-    const { name, token, show } = values;
+    const { name, token } = values;
 
     const clickSubmit = event => {
         event.preventDefault();
